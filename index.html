@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Spotify - Your Music Defines What You Are</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li class="brand"><img src="./images/pngegg.png" alt="Spotify"> Spotify</li>
+            <li>Home</li>
+            <li>About</li>
+        </ul>
+    </nav>
+
+    <div class="container">
+        <div class="songList">
+        <h1>Best of Linkin Park - Copyright Music</h1>
+        <div class="songItemContainer">
+            <div class="songItem">
+                <img  alt="1">
+                <span class="songName">Breaking The Habit</span>
+                <span class="songlistplay"><span class="timestamp">03:17 <i id = "10" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img alt="1">
+                <span class="songName">What I've Done</span>
+                <span class="songlistplay"><span class="timestamp">03:26 <i id = "9" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img  alt="1">
+                <span class="songName">Shadow of the Day</span>
+                <span class="songlistplay"><span class="timestamp">04:50 <i id = "8" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+            </div>
+            <div class="songItem">
+                <img  alt="1">
+                <span class="songName">New Divide</span>
+                <span class="songlistplay"><span class="timestamp">04:29 <i id = "7" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+            </div>
+        </div>
+        <div class="songItem">
+            <img  alt="1">
+            <span class="songName">Runaway</span>
+            <span class="songlistplay"><span class="timestamp">03:04 <i id = "6" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img  alt="1">
+            <span class="songName">Points of Authority</span>
+            <span class="songlistplay"><span class="timestamp">03:20 <i id = "5" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img  alt="1">
+            <span class="songName">One Step Closer</span>
+            <span class="songlistplay"><span class="timestamp">02:37 <i id = "4" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img  alt="1">
+            <span class="songName">In The End</span>
+            <span class="songlistplay"><span class="timestamp">03:36 <i id = "3" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img  alt="1">
+            <span class="songName">Numb</span>
+            <span class="songlistplay"><span class="timestamp">03:05 <i id = "2" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+        </div>
+        <div class="songItem">
+            <img  alt="1">
+            <span class="songName">One More Light</span>
+            <span class="songlistplay"><span class="timestamp">04:15 <i id = "1" class="fa-solid songItemPlay fa-circle-play"></i></span></span>
+        </div>
+    </div>
+        <div class="songBanner"></div>
+    </div>
+    <div class="bottom">
+        <input type="range" name="range" id="myProgressBar" min="0" value="0" max="100">
+        <div class="icons">
+            <i class="fa-3x fa-solid fa-step-backward" id="previous"></i>
+            <i class="fa-4x fa-solid fa-circle-play" id="masterPlay"></i>
+            <i class="fa-3x fa-solid fa-step-forward" id="next"></i>
+            <!-- fontawesome icons-->
+        </div>
+        <div class="songInfo">
+            <img src="./images/playing.gif" width="42px" id="gif"> <span id="masterSongName">Breaking The Habit</span>
+        </div>
+    </div>
+    <script src="https://kit.fontawesome.com/d3d5905580.js" crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+</html>
